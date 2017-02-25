@@ -30,4 +30,4 @@ xmlhttp.open("GET", "url", true);
 xmlhttp.send();
 }
 
-request(
+request("bitcoin_block_number","http://bitcoin.mubiz.com/blockchaininfo");
